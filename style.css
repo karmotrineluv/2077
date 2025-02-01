@@ -91,21 +91,20 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: rgb(255, 0, 60);  /* Menu icon color */
+  background-color: rgb(255, 0, 60); 
   transition: all 0.3s ease-in-out;
 }
 
-/* Menu background and links style */
 .menu-links {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: rgb(18, 18, 18);  /* Background color */
+  background-color: rgb(18, 18, 18); 
   width: 100%;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
-  border: 1px solid rgb(255, 0, 60);  /* Border color */
+  border: 1px solid rgb(255, 0, 60); 
 }
 
 .menu-links a {
@@ -113,7 +112,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: rgb(0, 240, 255);  /* Button color */
+  color: rgb(0, 240, 255);  
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -124,10 +123,9 @@ a:hover {
 
 /* Toggle menu visibility */
 .menu-links.open {
-  max-height: 300px; /* Adjust based on menu items */
+  max-height: 300px; 
 }
 
-/* Hamburger icon transformation */
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
 }
@@ -237,9 +235,9 @@ a:hover {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: #121212; /* Set the background color inside the box */
-  border-radius: 0; /* Make the border rectangular */
-  border: 0.1rem solid rgb(255, 0, 60); /* Set border color to rgb(255, 0, 60) */
+  background: #121212;
+  border-radius: 0; 
+  border: 0.1rem solid rgb(255, 0, 60); 
   text-align: center;
 }
 
@@ -302,8 +300,8 @@ article .icon {
 
 .color-container {
   border-color: rgb(255, 0, 60);
-  background: #121212; /* Dark background */
-  padding: 2rem; /* Optional: Add some padding to create spacing around the content */
+  background: #121212;
+  padding: 2rem; 
 }
 
 .project-img {
@@ -314,13 +312,13 @@ article .icon {
 
 .project-title {
   margin: 1rem;
-  color: rgb(0, 240, 255); /* Neon cyan for project title */
+  color: rgb(0, 240, 255);
 }
 
 .project-btn {
   color: black;
-  border-color: rgb(255, 0, 60); /* Neon pink border */
-  background-color: rgb(0, 240, 255); /* Neon cyan button background */
+  border-color: rgb(255, 0, 60);
+  background-color: rgb(0, 240, 255); 
   padding: 0.5rem 1rem;
   border-radius: 2rem;
   transition: all 0.3s ease;
@@ -328,8 +326,8 @@ article .icon {
 
 .project-btn:hover {
   color: rgb(0, 240, 255);
-  background-color: rgb(255, 0, 60); /* Neon pink hover effect */
-  transform: translateY(-3px); /* Subtle lift effect */
+  background-color: rgb(255, 0, 60);
+  transform: translateY(-3px); 
 }
 
 
@@ -346,11 +344,11 @@ article .icon {
   display: flex;
   justify-content: center;
   border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(255, 0, 60); /* Keep the neon border color */
-  background: #121212; /* Set background to #121212 */
+  border-color: rgb(255, 0, 60); 
+  background: #121212; 
   margin: 2rem auto;
   padding: 0.5rem;
-  border-radius: 0; /* Rectangular borders (no rounded corners) */
+  border-radius: 0;
 }
 
 .contact-info-container {
